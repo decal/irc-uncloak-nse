@@ -6,6 +6,8 @@ local shortport = require "shortport"
 local stdnse = require "stdnse"
 local string = require "string"
 
+-- Check http://irc.netsplit.de for IRC networks to scan..
+
 description = [[Detects if an IRC (Internet Relay Chat) network's services are affected by an IP address uncloaking weakness: http://decal.sdf.org/spotfedsonline]]
 
 
